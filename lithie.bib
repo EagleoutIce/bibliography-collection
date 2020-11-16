@@ -426,6 +426,7 @@
 @Misc{Laboratories2015,
   author       = {Sandia National Laboratories},
   howpublished = {The Intercept},
+  note         = {Leaked by Edward Snowden.},
   title        = {Strawhorse: Attacking the MacOS and iOS Software Development Kit},
   year         = {2015},
   groups       = {Seminar, Imported references.bib, Uni},
@@ -455,17 +456,18 @@
 }
 
 @InProceedings{pdf:ddc,
-  author    = {David A. {Wheeler}},
-  booktitle = {21st Annual Computer Security Applications Conference (ACSAC'05)},
-  title     = {Countering trusting trust through diverse double-compiling},
-  year      = {2005},
-  month     = {Dec},
-  pages     = {13 pp.-48},
-  abstract  = {An air force evaluation of Multics, and Ken Thompson's famous Turing award lecture "reflections on trusting trust, " showed that compilers can be subverted to insert malicious Trojan horses into critical software, including themselves. If this attack goes undetected, even complete analysis of a system's source code can not find the malicious code that is running, and methods for detecting this particular attack are not widely known. This paper describes a practical technique, termed diverse double-compiling (DDC), that detects this attack and some compiler defects as well. Simply recompile the source code twice: once with a second (trusted) compiler, and again using the result of the first compilation. If the result is bit-for-bit identical with the untrusted binary, then the source code accurately represents the binary. This technique has been mentioned informally, but its issues and ramifications have not been identified or discussed in a peer-reviewed work, nor has a public demonstration been made. This paper describes the technique, justifies it, describes how to overcome practical challenges, and demonstrates it},
-  doi       = {10.1109/CSAC.2005.17},
-  groups    = {Seminar, Uni},
-  issn      = {1063-9527},
-  keywords  = {invasive software;program compilers;safety-critical software;diverse double compiling;air force evaluation;Multics;malicious Trojan horse;critical software;system source code analysis;malicious code;source code compilation;untrusted binary;Computer security;Application software},
+  author     = {David A. {Wheeler}},
+  booktitle  = {21st Annual Computer Security Applications Conference (ACSAC'05)},
+  title      = {Countering trusting trust through diverse double-compiling},
+  year       = {2005},
+  month      = {Dec},
+  pages      = {13 pp.-48},
+  abstract   = {An air force evaluation of Multics, and Ken Thompson's famous Turing award lecture "reflections on trusting trust, " showed that compilers can be subverted to insert malicious Trojan horses into critical software, including themselves. If this attack goes undetected, even complete analysis of a system's source code can not find the malicious code that is running, and methods for detecting this particular attack are not widely known. This paper describes a practical technique, termed diverse double-compiling (DDC), that detects this attack and some compiler defects as well. Simply recompile the source code twice: once with a second (trusted) compiler, and again using the result of the first compilation. If the result is bit-for-bit identical with the untrusted binary, then the source code accurately represents the binary. This technique has been mentioned informally, but its issues and ramifications have not been identified or discussed in a peer-reviewed work, nor has a public demonstration been made. This paper describes the technique, justifies it, describes how to overcome practical challenges, and demonstrates it},
+  doi        = {10.1109/CSAC.2005.17},
+  groups     = {Seminar, Uni},
+  issn       = {1063-9527},
+  keywords   = {invasive software;program compilers;safety-critical software;diverse double compiling;air force evaluation;Multics;malicious Trojan horse;critical software;system source code analysis;malicious code;source code compilation;untrusted binary;Computer security;Application software, read},
+  readstatus = {read},
 }
 
 @Article{pdf:bootstrappinglinear,
@@ -486,6 +488,18 @@
   numpages   = {7},
   publisher  = {Consortium for Computing Sciences in Colleges},
   readstatus = {skimmed},
+}
+
+@Misc{,
+  author     = {Dan Gooding},
+  month      = sep,
+  title      = {{Apple} scrambles after 40 malicious “{XcodeGhost}” apps haunt {App Store}},
+  year       = {2015},
+  abstract   = {Apple officials are cleaning up the company's App Store after a security firm reported that almost 40 iOS apps contained malicious code that made iPhones and iPads part of a botnet that stole potentially sensitive user information.},
+  groups     = {Seminar, Uni},
+  keywords   = {skimmed},
+  readstatus = {skimmed},
+  url        = {\url{https://arstechnica.com/information-technology/2015/09/apple-scrambles-after-40-malicious-xcodeghost-apps-haunt-app-store/}},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
