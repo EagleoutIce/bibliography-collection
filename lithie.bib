@@ -3,7 +3,7 @@
 @Book{book:komascript,
   author     = {Kohm, Markus},
   publisher  = {Lehmanns Media},
-  title      = {KOMA-Script},
+  title      = {{KOMA-Script}},
   year       = {2020},
   address    = {Berlin},
   edition    = {7},
@@ -20,7 +20,7 @@
 @Manual{book:latex-source2e,
   title      = {The {\LaTeX2e} Source},
   author     = {Braams, Johannes and Carlisle, David and Jeffrey, Alan and Lamport, Leslie and Mittelbach, Frank and Rowley, Chris and Sch{\"o}pf, Rainer},
-  month      = {12},
+  month      = dec,
   year       = {2005},
   groups     = {LaTeX, Packages},
   keywords   = {read},
@@ -132,16 +132,16 @@
   url        = {CTAN://macros/latex/required/amslatex/math/},
 }
 
- @book{book:duden2006,
-   title = {Duden -- Deutsches Universalwörterbuch},
-   publisher = {Bibliographisches Institut},
-   edition = {6},
-   isbn = {3411055065},
-   year = {2006},
-   month = Oct,
-   address = {Mannheim},
-   url = {http://www.duden.de/suche/detail.php?isbn=3-411-05506-5},
-   quality = {5}
+@Book{book:duden2006,
+  publisher = {Bibliographisches Institut},
+  title     = {Duden -- Deutsches Universalw{\" o}rterbuch},
+  year      = {2006},
+  address   = {Mannheim},
+  edition   = {6},
+  isbn      = {3411055065},
+  month     = oct,
+  quality   = {5},
+  url       = {http://www.duden.de/suche/detail.php?isbn=3-411-05506-5},
 }
 
 @Book{knuth:texbook,
@@ -206,7 +206,7 @@
 }
 
 @Misc{package:microtype,
-  author   = {Schlicht, R},
+  author   = {Schlicht, Robert},
   month    = may,
   title    = {The {\texttt{microtype}} package: An interface to the micro-typographic extensions of pdf{\TeX}},
   year     = {2013},
@@ -368,7 +368,7 @@
 @Book{book:doumonttmt,
   author     = {Jean-Luc Doumont},
   publisher  = {Principiae},
-  title      = {Trees, Maps, and Theorems},
+  title      = {{Trees, Maps, and Theorems}},
   year       = {2009},
   isbn       = {9789081367707},
   month      = {1},
@@ -377,7 +377,7 @@
   pagecount  = {169},
   priority   = {prio1},
   readstatus = {read},
-  url        = {www.principiae.be},
+  url        = {https://www.principiae.be/},
 }
 
 @Article{Thompson1984,
@@ -389,7 +389,7 @@
   month      = aug,
   note       = {Turing Award, 1983},
   number     = {8},
-  pages      = {761–763},
+  pages      = {761--763},
   volume     = {27},
   abstract   = {To what extent should one trust a statement that a program is free of Trojan horses? Perhaps it is more important to trust the people who wrote the software.},
   address    = {New York, NY, USA},
@@ -410,8 +410,8 @@
   title      = {{CHAINIAC}: Proactive Software-Update Transparency via Collectively Signed Skipchains and Verified Builds},
   year       = {2017},
   address    = {USA},
-  pages      = {1271–1287},
-  publisher  = {USENIX Association},
+  pages      = {1271--1287},
+  publisher  = {{USENIX} Association},
   series     = {SEC'17},
   abstract   = {Software-update mechanisms are critical to the security of modern systems, but their typically centralized design presents a lucrative and frequently attacked target. In this work, we propose CHAINIAC, a decentralized software-update framework that eliminates single points of failure, enforces transparency, and provides efficient verifiability of integrity and authenticity for software-release processes. Independent witness servers collectively verify conformance of software updates to release policies, build verifiers validate the source-to-binary correspondence, and a tamper-proof release log stores collectively signed updates, thus ensuring that no release is accepted by clients before being widely disclosed and validated. The release log embodies a skipchain, a novel data structure, enabling arbitrarily out-of-date clients to efficiently validate updates and signing keys. Evaluation of our CHAINIAC prototype on reproducible Debian packages shows that the automated update process takes the average of 5 minutes per release for individual packages, and only 20 seconds for the aggregate timeline. We further evaluate the framework using real-world data from the PyPI package repository and show that it offers clients security comparable to verifying every single update themselves while consuming only one-fifth of the bandwidth and having a minimal computational overhead.},
   groups     = {Seminar, Imported references.bib, Uni},
@@ -452,7 +452,7 @@
   booktitle  = {21st Annual Computer Security Applications Conference (ACSAC'05)},
   title      = {Countering trusting trust through diverse double-compiling},
   year       = {2005},
-  month      = {Dec},
+  month      = dec,
   pages      = {13 pp.-48},
   abstract   = {An air force evaluation of Multics, and Ken Thompson's famous Turing award lecture "reflections on trusting trust, " showed that compilers can be subverted to insert malicious Trojan horses into critical software, including themselves. If this attack goes undetected, even complete analysis of a system's source code can not find the malicious code that is running, and methods for detecting this particular attack are not widely known. This paper describes a practical technique, termed diverse double-compiling (DDC), that detects this attack and some compiler defects as well. Simply recompile the source code twice: once with a second (trusted) compiler, and again using the result of the first compilation. If the result is bit-for-bit identical with the untrusted binary, then the source code accurately represents the binary. This technique has been mentioned informally, but its issues and ramifications have not been identified or discussed in a peer-reviewed work, nor has a public demonstration been made. This paper describes the technique, justifies it, describes how to overcome practical challenges, and demonstrates it},
   doi        = {10.1109/CSAC.2005.17},
@@ -542,7 +542,7 @@
   title     = {A Compiler Generator},
   year      = {1970},
   isbn      = {9780131550773},
-  month     = {11},
+  month     = nov,
   day       = {18},
   groups    = {Uni, Seminar},
   pagecount = {527},
@@ -589,7 +589,7 @@
 1 StaticGroup:Programming\;2\;1\;0x993300ff\;AT\;\;;
 2 StaticGroup:Languages\;0\;1\;0xcc6633ff\;android-messages\;General stuff abouot programming languages\;;
 2 StaticGroup:Software Engineering\;0\;1\;0xff9980ff\;\;\;;
-1 StaticGroup:Typography\;2\;0\;0x330033ff\;\;\;;
+1 StaticGroup:Typography\;2\;1\;0x330033ff\;\;\;;
 2 StaticGroup:Documents\;0\;1\;0x663366ff\;\;\;;
 1 StaticGroup:Psychologie\;0\;1\;0x330033ff\;\;Allgemeine Literatur Psycho\;;
 }
