@@ -1069,20 +1069,37 @@ techniques.},
 }
 
 @inproceedings{Devresse2015,
-author = {Devresse, Adrien and Delalondre, Fabien and Sch\"{u}rmann, Felix},
-title = {Nix Based Fully Automated Workflows and Ecosystem to Guarantee Scientific Result Reproducibility across Software Environments and Systems},
-year = {2015},
-isbn = {9781450340120},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-doi = {10.1145/2830168.2830172},
-abstract = {Reproducibility is a key requirement to scientific development. Any scientific process, including software simulations, must be able to be replicated in order to prove the robustness of its process and the validity of its results. If an approach based on the extensive documentation of the process itself maybe considered as sufficient to guarantee reproducibility of results in domains like Physics or Biology, such a requirement proves to be incomplete for software being executed on high performance computing platforms. The specifics of the customized and exotic HPC architectures, the fast evolution of the software development environment as well as the various variables that can pollute the software development and building process are just few of the many possible sources of scientific result corruption. We describe in this paper how the developers of the Blue Brain Project built a software development ecosystem based on the Nix packaging and build system in order to guarantee the full portability, traceability and reproducibility of scientific results.},
-booktitle = {Proceedings of the 3rd International Workshop on Software Engineering for High Performance Computing in Computational Science and Engineering},
-pages = {25–31},
-numpages = {7},
-keywords = {software engineering, high performance computing, traceability, software deployment, scientific reproducibility},
-location = {Austin, Texas},
-series = {SE-HPCCSE '15}
+  author    = {Devresse, Adrien and Delalondre, Fabien and Sch\"{u}rmann, Felix},
+  title     = {Nix Based Fully Automated Workflows and Ecosystem to Guarantee Scientific Result Reproducibility across Software Environments and Systems},
+  year      = {2015},
+  isbn      = {9781450340120},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  doi       = {10.1145/2830168.2830172},
+  abstract  = {Reproducibility is a key requirement to scientific development. Any scientific process, including software simulations, must be able to be replicated in order to prove the robustness of its process and the validity of its results. If an approach based on the extensive documentation of the process itself maybe considered as sufficient to guarantee reproducibility of results in domains like Physics or Biology, such a requirement proves to be incomplete for software being executed on high performance computing platforms. The specifics of the customized and exotic HPC architectures, the fast evolution of the software development environment as well as the various variables that can pollute the software development and building process are just few of the many possible sources of scientific result corruption. We describe in this paper how the developers of the Blue Brain Project built a software development ecosystem based on the Nix packaging and build system in order to guarantee the full portability, traceability and reproducibility of scientific results.},
+  booktitle = {Proceedings of the 3rd International Workshop on Software Engineering for High Performance Computing in Computational Science and Engineering},
+  pages     = {25–31},
+  numpages  = {7},
+  keywords  = {software engineering, high performance computing, traceability, software deployment, scientific reproducibility},
+  location  = {Austin, Texas},
+  series    = {SE-HPCCSE '15}
+}
+
+@inproceedings{Cappos2008,
+  author    = {Cappos, Justin and Samuel, Justin and Baker, Scott and Hartman, John H.},
+  title     = {A Look in the Mirror: Attacks on Package Managers},
+  year      = {2008},
+  isbn      = {9781595938107},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  doi       = {10.1145/1455770.1455841},
+  abstract  = {This work studies the security of ten popular package managers. These package managers use different security mechanisms that provide varying levels of usability and resilience to attack. We find that, despite their existing security mechanisms, all of these package managers have vulnerabilities that can be exploited by a man-in-the-middle or a malicious mirror. While all current package managers suffer from vulnerabilities, their security is also positively or negatively impacted by the distribution's security practices. Weaknesses in package managers are more easily exploited when distributions use third-party mirrors as official mirrors. We were successful in using false credentials to obtain an official mirror on all five of the distributions we attempted. We also found that some security mechanisms that control where a client obtains metadata and packages from may actually decrease security. We analyze current package managers to show that by exploiting vulnerabilities, an attacker with a mirror can compromise or crash hundreds to thousands of clients weekly. The problems we disclose are now being corrected by many different package manager maintainers.},
+  booktitle = {Proceedings of the 15th ACM Conference on Computer and Communications Security},
+  pages     = {565–574},
+  numpages  = {10},
+  keywords  = {mirrors, package management, replay attack},
+  location  = {Alexandria, Virginia, USA},
+  series    = {CCS '08}
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
